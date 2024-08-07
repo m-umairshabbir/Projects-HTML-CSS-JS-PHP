@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(./andy-holmes-rCbdp8VCYhQ-unsplash.jpg);
+  height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.head{
+    margin-top: 9%;
+    justify-content: center;
+    display: flex;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0,0.1);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:52px;
+    color: rgb(22, 18, 28);
+}
+.data p{
+    position: absolute;
+    width: 50% ;
+    background:  rgb(22, 18, 28);
+    opacity: 0.9;
+    font-size: 20px;
+    margin-left: 25%;
+    margin-top: 90px;
+    color: #fff;
+    border-radius: 8px;
+    transition: 0.5s;
+    background-size: 40px;
+    padding: 5px 10px;
+    transition: .3s ease-in-out;
+    text-align: center;
+}
+.data p:hover{
+    transition: .3s ease-in-out;
+    box-shadow: 25px 25px 25px 8px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1) rotate(-1.5deg);
+
+}

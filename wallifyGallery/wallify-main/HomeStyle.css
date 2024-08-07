@@ -1,0 +1,143 @@
+*
+{
+    margin: 0;
+padding: 0;
+}
+html,body{
+    font-weight: 300;
+}
+.container{
+    height: 100vh;
+    margin: 0 auto; 
+}
+.navbar{
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 98vw;
+    z-index:3;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+box-shadow:5px 5px 5px  rgb(232, 226, 226);
+background-color: white;
+}
+ul{
+    list-style: none;
+}
+ .effect{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 5px 5px;
+    color: black;
+    font-size: 15px; 
+    transition:0.1s ease-in-out;
+    border-bottom: 2px solid transparent;
+}
+.effect a img{
+    height: 25px;
+}
+.effect a{
+    background: transparent;
+    border: 2px solid rgb(232, 226, 226);
+    padding: 7px 8px;
+    border-radius: 8px;
+}
+.effect a:hover{
+    transition:0.4s ease-in-out;
+    border-bottom: 2px solid rgb(232, 226, 226);
+    opacity: 0.8;
+    background: black;
+    color: white;
+}
+a
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: black;
+}
+.tags{ 
+    margin-top: 30px;
+    z-index: 2;
+    background-color: white;
+    position: sticky;
+    font: bold;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 0.5px solid #ccc;
+    width: 416px;
+    border-radius: 25px;
+    transition: .3s ease-in-out;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+.tags:hover{
+    transition: .3s ease-in-out;
+}
+.tag a{
+  color: rgb(109, 43, 89);
+    border: 0.5px solid #ccc;
+    padding: 8px;
+    border-radius: 50px;
+   transition: 0.2s ease-in-out;
+}
+.tag a:hover{
+  border: 0.5px solid transparent;
+   transition: 0.2s ease-in-out;
+   box-shadow: 1px 2px 1px 2px rgba(0, 0, 0, 0.2);
+}
+.logo img{
+  height: 120px;
+}
+.bar{
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+}
+.search{
+    margin-top: 30px;
+    display:flex;
+    gap: 10px;
+}
+.search input{
+    width: 60vw;
+    padding: 5px 15px;
+    border-radius: 10px;
+    outline: none;
+    border-style: none;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+.search input:hover{
+    transition: .3s ease-in-out;
+}
+
+.search button{
+    padding: 10px 12px;
+    border: none;
+    background: #FC7C1C;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button{
+    font-size: 14px;
+    color: white;
+    background-color: #FC7C1C;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 12px;
+    transition: 0.2s ease-in-out;
+}
+button:hover{
+    transition: 0.2s ease-in-out;
+    background-color:white;
+color: black;
+}
+body{background-color:#ccc ;}

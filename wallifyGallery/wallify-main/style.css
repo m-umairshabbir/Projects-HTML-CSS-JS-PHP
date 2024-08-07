@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Image */
+.container img{
+    opacity: 0.68;
+    background-color: #ccc;
+    width: 100vw;
+    height: 100vh;
+}
+/* Button */
+.container button{
+    font-size: 15px;
+padding: 10px 15px;
+border-radius: 15px;
+opacity: 1;
+background-color: #ccc;
+transition: 0.3s ease-in-out;
+}
+/* Button Hover */
+.container button:hover{
+    opacity: 0.5;
+  transition: 0.3s ease-in-out;
+}
+/* Button anchor tag */
+.container button a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+/* Button Container */
+ .ptext{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+   top: 75%;
+}
+.bel{
+    top:80%;
+}
+/* Logo */
+.logo{
+    font-size: 73px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+.center{
+    
+        font-size: 40px;
+        position: absolute;
+       bottom: 20%;
+        width: 100%;
+        text-align: center;
+    }
+    
+
