@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Budget</title>
+    <link rel="stylesheet" href="addBudget.css">
+    <style>
+        button {
+    width: 100%;
+    padding: 10px;
+    background-color: skyblue;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: skyblue;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Add Budget</h2>
+        <form id="budgetForm">
+            <label for="category">Category:</label>
+            <select id="category" name="category" required>
+                <option value="groceries">Groceries</option>
+                <option value="entertainment">Entertainment</option>
+                <option value="bills">Bills</option>
+                <option value="savings">Savings</option>
+                <option value="travel">Travel</option>
+                <option value="sports">Sports</option>
+                
+                <!-- Add more categories as needed -->
+            </select>
+            
+            <label for="amount">Amount:</label>
+            <input type="number" id="amount" name="amount" required>
+            
+            <button type="button" onclick="submitBudget()">Add Budget</button>
+        </form>
+    </div>
+    <script src="addBudget.js"></script>
+</body>
+</html>
